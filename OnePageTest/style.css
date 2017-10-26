@@ -53,6 +53,31 @@ border-right: 0.5px solid black;
   height: 100%;
 }
 
+i {
+  border: 1px solid white;
+  margin:
+}
+
 #twitter:hover {
   color : #3cf;
+}
+
+#facebook:hover {
+  color : #3b5998;
+}
+
+#snap:hover {
+  color : #FFFC00;
+}
+
+#gmail:hover {
+  color : #C71610;
+}
+
+#insta:hover {
+  color: #bc2a8d;
+}
+
+#phone:hover {
+  color : #8C8F8E ;
 }
