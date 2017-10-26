@@ -25,7 +25,10 @@ justify-content: space-between;
 width : 80%;
 margin-left: 10%;
 margin-right: 10%;
+text-align: center;
+margin-bottom: 5px;
 }
+
 
 .descriptif {
   margin-left: 10%;
@@ -54,30 +57,90 @@ border-right: 0.5px solid black;
 }
 
 i {
-  border: 1px solid white;
-  margin:
+  padding: 7px;
+  border-radius: 50%;
+  width: 10%;
+  position: center;
 }
 
 #twitter:hover {
   color : #3cf;
+ /*background-color: black;*/
+
 }
 
 #facebook:hover {
   color : #3b5998;
+ /*background-color: black;*/
 }
 
 #snap:hover {
   color : #FFFC00;
-}
-
-#gmail:hover {
-  color : #C71610;
+ /*background-color: black;*/
 }
 
 #insta:hover {
   color: #bc2a8d;
+ /*background-color: black;*/
 }
 
 #phone:hover {
   color : #8C8F8E ;
+ /*background-color: black;*/
+}
+
+.black {
+  background-color: white;
+}
+
+.line{
+  height: 50px;
+  width: 100%;
+  margin-top: 0.75%;
+  margin-bottom: 0.75%;
+  display: flex;
+}
+
+img {
+  width: 15%;
+  height: 50px;
+  display: list-item;
+}
+
+.line:nth-child(1n+0){
+}
+
+.line:nth-child(2n+0){
+  direction: rtl;
+}
+
+.program p {
+  font-size: 40%;
+  margin-left: 5%;
+  text-align: center;
+  margin-right: 5%;
+  margin-top: 3.5%;
+  width: 60%;
+}
+
+.date {
+  text-align: center;
+  
+}
+
+.date h4{
+  margin: 0;
+  margin-top: 10%;
+}
+
+a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 15%;
+}
+
+a:hover{
+  background-color: #FF4844;
 }
