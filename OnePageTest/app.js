@@ -28,12 +28,12 @@ var descriptif = document.getElementById('texte');
 for (var i = 0; i < ligne.length; i++) {
   ligne[i].addEventListener('mouseover' , function(event){
     this.style.backgroundColor = '#E0A5A0';
-    descriptif.innerHTML = '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti itaque iure saepe sit, dolorem quia! At expedita eius molestiae odit quia animi vero ad corrupti?</p>';
+    descriptif.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti itaque iure saepe sit, dolorem quia! At expedita eius molestiae odit quia animi vero ad corrupti?';
     // text();
     for (var ii = 0; ii < ligne.length; ii++){
       ligne[ii].addEventListener('mouseout',function(event){
         this.style.backgroundColor = "";
-        descriptif.innerHTML = '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sapiente natus pariatur fuga, ipsam odio inventore fugit at aperiam dolorum! Sit numquam error culpa laudantium aliquid, eaque dicta repudiandae voluptates?50</p>';
+        descriptif.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sapiente natus pariatur fuga, ipsam odio inventore fugit at aperiam dolorum! Sit numquam error culpa laudantium aliquid, eaque dicta repudiandae voluptates?50';
         event.preventDefault();
         // efface();
         });
