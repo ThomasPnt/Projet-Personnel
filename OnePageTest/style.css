@@ -6,6 +6,7 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 .imgpres {
   background-image:url(imgdesc.jpg);
@@ -110,6 +111,7 @@ i {
 }
 
 .line{
+  border-top: 0.75px solid #eee;
   height: 50px;
   width: 100%;
   margin-top: 0.75%;
