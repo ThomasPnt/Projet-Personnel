@@ -27,7 +27,7 @@ var descriptif = document.getElementById('texte');
 
 for (var i = 0; i < ligne.length; i++) {
   ligne[i].addEventListener('mouseover' , function(event){
-    this.style.backgroundColor = '#E0A5A0';
+    this.style.backgroundColor = '#D6C0BA';
     descriptif.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti itaque iure saepe sit, dolorem quia! At expedita eius molestiae odit quia animi vero ad corrupti?';
     // text();
     for (var ii = 0; ii < ligne.length; ii++){
