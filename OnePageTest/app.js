@@ -30,6 +30,8 @@ for (var i = 0; i < ligne.length; i++) {
   ligne[i].addEventListener('mouseover' , function(event){
     this.style.backgroundColor = '#D6C0BA';
     descriptif.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti itaque iure saepe sit, dolorem quia! At expedita eius molestiae odit quia animi vero ad corrupti?';
+    descriptif.style.textAlign = 'center';
+
     // text();
     for (var ii = 0; ii < ligne.length; ii++){
       ligne[ii].addEventListener('mouseout',function(event){

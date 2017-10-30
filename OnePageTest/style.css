@@ -77,7 +77,12 @@ i {
   padding: 7px;
   border-radius: 50%;
   width: 10%;
-  position: center;
+  position: relative;
+  transition: 1s;
+}
+
+i:hover {
+  top: -5px;
 }
 
 #twitter:hover {
@@ -164,6 +169,12 @@ a {
 
 a:hover{
   background-color: #FF4844;
+}
+
+a:active {
+  background-color: #FF4844;
+  box-shadow: 0 5px #666;
+  transform: translateY(10px);
 }
 
 #texte {
