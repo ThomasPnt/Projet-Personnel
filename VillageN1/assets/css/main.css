@@ -18,16 +18,37 @@
 		border-radius: 5%;
 	}
 
+
 	.service {
 		width: 50%;
 	}
 
-	.button.special{
-		width: 30%;
+	li{
+		bottom: 0;
 	}
+
+	a.button.special {
+		position: relative;
+		width: auto;
+	}
+
+	.button.special{
+		width: 100%;
+	}
+	
 	.button.pas {
 		width: 25%;
 	}
+
+	@media screen and (max-width: 480px){
+		a.button.pas{
+			width: auto;
+			padding-left: 2%;
+			padding-right: 2%;
+			margin-top: 2%;
+		}
+	}
+
 	@media screen and (max-width : 750px){
 		.suite{
 			text-align: center;
