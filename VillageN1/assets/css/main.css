@@ -15,12 +15,25 @@
 
 	.photorow {
 		width: 100%;
-		border-radius: 5%;
+		padding-top: 20px;
+		border-radius: 15px;
 	}
-
 
 	.service {
 		width: 50%;
+		height: 205px;
+	}
+
+	#three {
+		position: relative;
+	}
+
+	.service p {
+		height: 50%;
+	}
+
+	p {
+		text-align: justify;
 	}
 
 	li{
@@ -35,17 +48,30 @@
 	.button.special{
 		width: 100%;
 	}
-	
+
 	.button.pas {
 		width: 25%;
 	}
 
 	@media screen and (max-width: 480px){
 		a.button.pas{
-			width: auto;
-			padding-left: 2%;
-			padding-right: 2%;
+			width: 75%;
+			padding-left: 10px;
+			padding-right: 10px;
 			margin-top: 2%;
+		}
+		.service h3{
+			height: 20%;
+		}
+		#logo{
+			width: 60%;
+		}
+		.service p{
+			text-align: justify;
+		}
+		a.button.special {
+			padding-left: 5px;
+			padding-right: 5px;
 		}
 	}
 
@@ -53,6 +79,10 @@
 		.suite{
 			text-align: center;
 		}
+		#three{
+			height: 400px;
+		}
+
 	}
 
 	@media screen and (max-width : 1180px) {
@@ -2763,7 +2793,7 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay1.png");
 			background-size: auto,							cover;
 		}
 
@@ -2854,7 +2884,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3004,11 +3034,11 @@
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
+			background-image: linear-gradient(45deg, #7C8BE0, #516AC9);
 			content: '';
 			height: 100%;
 			left: 0;
-			opacity: 0;
+			opacity: 1;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3041,7 +3071,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #7C8BE0, #516AC9 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
