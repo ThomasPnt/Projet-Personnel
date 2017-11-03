@@ -3067,7 +3067,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 2em 0 2em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3250,7 +3250,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 4em 0 4em 0 ;
+				padding: 2em 0 2em 0 ;
 				background-attachment: scroll;
 			}
 
@@ -3287,7 +3287,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 5em 3em 5em 3em ;
+				padding: 2em 1em 2em 1em ;
 			}
 
 		/* One */
@@ -3382,7 +3382,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 3em 1.5em 3em 1.5em ;
+				padding: 2em 1em 2em 1em ;
 			}
 
 	}
@@ -3453,7 +3453,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 2em 1.5em 2em 1.5em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 				#footer .copyright {
@@ -3498,7 +3498,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 2em 1em 2em 1em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 	}
