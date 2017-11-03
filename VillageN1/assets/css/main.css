@@ -90,11 +90,28 @@
 			padding-left: 15px;
 			padding-right: 15px;
 		}
+		img.photorow {
+			width: 33%;
+			height: 100px;
+		}
+		.photo {
+			display: inline-flex;
+		}
 	}
 
-	@media screen and (max-width : 750px){
+	@media screen and (max-width : 780px){
 		.suite{
 			text-align: center;
+		}
+	}
+
+	@media screen and (max-width : 980px) and (min-width : 481px) {
+		img.photorow {
+			width: 33%;
+			height: 175px;
+		}
+		.photo {
+			display: inline-flex;
 		}
 	}
 
