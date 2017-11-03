@@ -13,6 +13,10 @@
 		width: 25%;
 	}
 
+	.more {
+		position: relative;
+	}
+
 	.photorow {
 		width: 100%;
 		padding-top: 20px;
@@ -21,11 +25,19 @@
 
 	.service {
 		width: 50%;
-		height: 205px;
+	}
+
+	.more {
+		width: 50%;
+	}
+
+	#four {
+		margin-top: 1em;
+		padding-top: 1.5em;
 	}
 
 	#three {
-		position: relative;
+	position: relative;
 	}
 
 	.service p {
@@ -34,6 +46,11 @@
 
 	p {
 		text-align: justify;
+	}
+
+	.list {
+		list-style: none;
+		padding-left: 0;
 	}
 
 	li{
@@ -70,8 +87,8 @@
 			text-align: justify;
 		}
 		a.button.special {
-			padding-left: 5px;
-			padding-right: 5px;
+			padding-left: 15px;
+			padding-right: 15px;
 		}
 	}
 
@@ -79,10 +96,6 @@
 		.suite{
 			text-align: center;
 		}
-		#three{
-			height: 400px;
-		}
-
 	}
 
 	@media screen and (max-width : 1180px) {
@@ -2432,10 +2445,6 @@
 		padding-left: 1em;
 	}
 
-		ul li {
-			padding-left: 0.5em;
-		}
-
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
@@ -3034,7 +3043,7 @@
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #7C8BE0, #516AC9);
+			background-image: linear-gradient(45deg, #7CBFE0, #516AC9);
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3071,7 +3080,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #7C8BE0, #516AC9 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #7CBFE0, #516AC9 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
