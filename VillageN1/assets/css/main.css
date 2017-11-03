@@ -107,8 +107,9 @@
 
 	@media screen and (max-width : 980px) and (min-width : 481px) {
 		img.photorow {
-			width: 33%;
+			width: 31%;
 			height: 175px;
+			margin: 1%;
 		}
 		.photo {
 			display: inline-flex;
