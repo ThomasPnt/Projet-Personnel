@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  width: 19%;
+  height: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+nav{
+  height: 100%;
+}
+
+nav ul{
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  cursor: pointer;
+
+}
+
+nav a:hover{
+  color: black;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+nav li:hover{
+  transition: 0.3s;
+  background-color: #eee;
+  color: black;
+}
+
+header{
+  background-color: black;
+  height: 40px;
+}
+/*NavBar*/
+
+#container{
+  width: 60%;
+}
+
+.test{
+  width: 20%;
+  float: left;
+}
